@@ -1,0 +1,55 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : May 29, 2023, 2:54:13 PM
+    Author     : ADMIN
+*/
+#wrapper{
+    margin-left: 5%;
+    margin-right: 5%;
+    font-family: arial;
+}
+
+#tab2{
+    width: 80%;
+    float: left;
+}
+/*phần sản phẩm*/
+ul.item{
+    list-style: none;
+    float: left;
+    width: 100%;
+}
+ul.item li{
+    width: 25%;
+    height: 250px;
+    text-align: center;
+    float: left;
+    margin: 20px;
+    border: 2px solid chocolate;
+    border-radius: 20px;
+}
+ul.item li img{
+    margin-top: 5px;
+    width: 90%;
+    height: 70%;
+}
+ul.item li a{
+    text-decoration: none;
+}
+ul.item li:hover{
+    background: bisque;
+}
+ul.item p{
+    margin:5px;
+    color: blue;
+    font-size: 12px;
+}
+.old{
+    text-decoration: line-through;
+    color: red;
+}
+
+
